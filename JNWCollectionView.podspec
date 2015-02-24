@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "JNWCollectionView"
-  s.version      = "1.3"
+  s.version      = "1.4"
   s.summary      = "A highly customizable and performant collection view for the Mac."
-  s.homepage     = "https://github.com/jwilling/JNWCollectionView"
+  s.homepage     = "https://github.com/artemch/JNWCollectionView.git"
   s.screenshots  = "http://jwilling.com/drop/github/JNWCollectionView.png"
   s.license      = 'MIT'
   s.author       = { "Jonathan Willing" => "hi@jwilling.com" }
-  s.source       = { :git => "https://github.com/jwilling/JNWCollectionView.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/artemch/JNWCollectionView.git", :tag => s.version.to_s }
 
   s.platform     = :osx, '10.8'
   s.requires_arc = true
